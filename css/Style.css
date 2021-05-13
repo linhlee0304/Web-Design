@@ -1,0 +1,300 @@
+
+/* CSS Document */
+/*Header*/
+header{
+	background-color: rgb(219, 246, 255);
+	display:flex;
+	color:#0CF;
+	margin:-8px;
+	height: 120px;
+}
+header img{
+	width:120px;
+}
+.col9{ /**/
+	width:9%;
+}
+.col20{ /**/
+	width:20%;
+	font-family:"Comic Sans MS", cursive;
+	font-size:50px;
+}
+.col20 > a{
+	color: #0CF;
+	text-decoration: none;
+}
+.col40{  /**/
+	width:40%;
+	margin-top: 50px;
+}
+.col40>input{
+	width:98%;
+	height:30px;
+	border-radius: 15px 15px;
+}
+.col18{  /**/
+	width:18%;
+	margin-top:50px;
+}
+.col18 > a{
+	color: #666;
+}
+.col18 > a:hover{
+	color: #0CF;
+}
+.col12{  /**/
+	width:12%;
+	margin-top: 33px;
+}
+.col12 >ul{
+	list-style-type:none;
+	display:flex;	
+}
+.col12 >ul>li.shop{
+	width:70px;
+}
+.col12 > ul >li > a{
+	color: #666;
+}
+.col12 > ul >li > a:hover{
+	color: #0CF;
+}
+/* CSS Menu */
+.menu{
+	background-color:rgb(250, 254, 255) ;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 18px;
+	margin: -8px;
+	position: sticky;
+	top: 0px;
+}
+.menu > div{
+	margin-left: 400px;
+}
+.menu ul{
+	list-style-type: none;
+	margin-top: 9px;
+	padding-left: 0px;
+	display: flex;
+}
+.menu a{
+	text-decoration: none;
+}
+.menu > div > ul > li{
+	min-width: 120px;
+	text-align: center;
+}
+.menu > div > ul > li > a{
+	color: darkslategray;
+	display: block;
+	padding: 11px 25px;
+}
+.menu a:hover{
+	color:#0CF;
+}
+.sub-menu .sub {
+	display: none;
+	position: absolute;
+	background-color:rgb(250, 254, 255);
+	margin:0;
+	width: 200px;
+	height: 232px;
+}
+.sub-menu:hover .sub{
+	display: block;
+}
+.sub-menu .sub > li > a{
+	color: grey ;
+	display: block;
+	padding: 15px 20px;
+}
+.sub-menu .sub > li > a:hover{
+	color:#0CF;
+}
+.sub-menu .dv{
+	height: 180px;
+}
+/*section*/
+h1.hello{
+	text-align:center;
+	font-family:"Comic Sans MS", cursive;
+	margin:0;
+	animation:doimau 4s ease infinite;
+}
+@keyframes doimau{
+	0%{
+		color:#09F;
+	}
+	25%{
+		color: dimgrey;
+	}
+	25%{
+		color: peru;
+	}
+	100%{
+		color: royalblue;
+	}
+}
+/*CSS contact*/
+section.contact{
+	background-color:rgb(255,102,0,0.8)  ;
+	position:fixed;
+	top: 88%;
+	border-radius:30px 30px;
+	display: flex;
+}
+section.contact>a{
+	text-decoration:none;
+	color:#FFF;
+	text-transform:uppercase;
+	padding: 15px;
+}
+/*CSSbanner*/
+.banner{
+	margin:0 auto;
+	animation:doinen ease 90s infinite ;
+	width:70%;
+	height:450px;
+	background-size:100%;
+	background-repeat:none;
+	display:block;
+}
+
+@keyframes doinen{
+	2% {
+		background-image:url(../images/choalaska.jpg)
+	}
+	33%{
+		background-image:url(../images/meoaln.jpg)
+	}
+	5%{
+		background-image:url(../images/meovang2.jpg)
+	}
+	20%{
+		background-image:url(../images/meoald.jpg)
+	}
+	15%{
+		background-image:url(../images/chongu.jpg)
+	}
+	10%{
+		background-image:url(../images/chocon.jpg)
+	}
+}
+body{
+	font-family:revert;
+}
+/*CSS product*/
+div.name{
+	text-align:center;
+	color:#066;
+	font-size: x-large;
+	margin: 30px;;
+}
+div.products{
+	display:flex;
+	width: 1152px;
+	height: 315px;
+	margin:15px auto;
+}
+div.product{
+	/*width:20%;*/
+	min-width:20%;
+	padding-right:5px;
+	border:1px solid #E8E8E8;
+	border-radius: 15px 15px;
+	margin:0 auto;
+	text-align:center;
+}
+div.product>a:hover{
+	background-color: #09F;
+}
+div.product>a>img{
+	width:80%;
+}
+div.info>h4{
+	color:#F00;
+}
+/*CSS Service*/
+div.services{
+	display:flex;
+}
+div.service{	
+	padding:30px;
+	width:50%;
+	text-align:center;
+}
+div.service>a>img{
+	width:80%;
+	border:thick 2px;
+}
+div.info a{
+	text-decoration:none;
+	color:#666;
+	font-family:Arial, Helvetica, sans-serif;
+}
+div.info a:hover{
+	color:#09F;
+}
+/*Go to top*/
+.gotop{
+	position:fixed;
+	top: 80%;
+	left: 93%;
+}
+.gotop > a:hover{
+	color: #0CF;
+}
+.gotop > a{
+	color: #09F;
+}
+/*Footer*/
+footer{
+	background-color: rgb(219, 246, 255);
+	margin: -6px;
+	height: 190px;
+	display: flex;
+	color: teal;
+}
+.f40{
+	width: 40%;
+	font-family:monospace;
+}
+.f40 > h2{
+	text-align: left;
+	margin-left: 45px;	
+}
+.f40 > ul{
+	list-style-type: none;
+}
+.f40 > ul > li{
+	padding: 5px;
+}
+.f40 > ul > li > a > i{
+	color: teal;
+}
+.f40 > ul > li > a > i:hover{
+	color: #0CF;
+}
+.kn{
+	font-size: 15px;
+	margin-left: 20px;
+}
+.f45{
+	width: 45%;
+	font-size: 65px;
+	font-family: "Comic Sans MS",cursive;
+	text-align: right;
+	margin-top: 50px;
+}
+.f45 > a{
+	text-decoration: none;
+	color: #0CF;
+}
+.f10 {
+	width: 10%;
+	text-align: center;
+}
+.f10 > img{
+	height: 170px;
+	margin-top: 15px;
+}

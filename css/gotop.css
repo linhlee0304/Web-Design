@@ -1,0 +1,12 @@
+/*Go to top*/
+.gotop{
+	position:fixed;
+	top: 80%;
+	left: 93%;
+}
+.gotop > a:hover{
+	color: #0CF;
+}
+.gotop > a{
+	color: #09F;
+}

@@ -1,0 +1,42 @@
+/*CSS product*/
+div.name{
+	text-align:center;
+	color:#066;
+	font-size: x-large;
+	margin: 30px;;
+}
+div.products{
+	display:flex;
+	width: 90%;
+	height: 265px;
+	margin:20px;
+}
+div.product>a:hover{
+	background-color: #099;
+}
+div.product{
+	/*width:20%;*/
+	min-width:25%;
+	padding-right:5px;
+	border:1px solid #E8E8E8;
+	border-radius: 15px 15px;
+	margin:0 auto;
+	text-align:center;
+	text-decoration:none;
+}
+div.product> div.info>a{
+	text-decoration:none;
+	color:#333;
+}
+div.product> div.info>a:hover{
+	color:#099;
+}
+div.product>a>img{
+	width:80%;
+}
+div.info>h4{
+	color:#F00;
+}
+div.col50{
+	width:60%;
+}

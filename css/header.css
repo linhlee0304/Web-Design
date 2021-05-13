@@ -1,0 +1,58 @@
+header{
+	background-color: rgb(219, 246, 255);
+	display:flex;
+	color:#0CF;
+	margin:-8px;
+	height: 120px;
+}
+header img{
+	width:120px;
+}
+.col9{ /**/
+	width:9%;
+}
+.col20{ /**/
+	width:20%;
+	font-family:"Comic Sans MS", cursive;
+	font-size:50px;
+}
+.col20 > a{
+	color: #0CF;
+	text-decoration: none;
+}
+.col40{  /**/
+	width:40%;
+	margin-top: 50px;
+}
+.col40>input{
+	width:98%;
+	height:30px;
+	border-radius: 15px 15px;
+}
+.col18{  /**/
+	width:18%;
+	margin-top:50px;
+}
+.col18 > a{
+	color: #666;
+}
+.col18 > a:hover{
+	color: #0CF;
+}
+.col12{  /**/
+	width:12%;
+	margin-top: 33px;
+}
+.col12 >ul{
+	list-style-type:none;
+	display:flex;	
+}
+.col12 >ul>li.shop{
+	width:70px;
+}
+.col12 > ul >li > a{
+	color: #666;
+}
+.col12 > ul >li > a:hover{
+	color: #0CF;
+}

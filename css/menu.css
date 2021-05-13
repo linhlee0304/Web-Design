@@ -1,0 +1,55 @@
+/* CSS Menu */
+.menu{
+	background-color:rgb(250, 254, 255) ;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 18px;
+	margin: -8px;
+	position: sticky;
+	top: 0px;
+}
+.menu > div{
+	margin-left: 400px;
+}
+.menu ul{
+	list-style-type: none;
+	margin-top: 9px;
+	padding-left: 0px;
+	display: flex;
+}
+.menu a{
+	text-decoration: none;
+}
+.menu > div > ul > li{
+	min-width: 120px;
+	text-align: center;
+}
+.menu > div > ul > li > a{
+	color: darkslategray;
+	display: block;
+	padding: 11px 25px;
+}
+.menu a:hover{
+	color:#0CF;
+}
+.sub-menu .sub {
+	display: none;
+	position: absolute;
+	background-color:rgb(250, 254, 255);
+	margin:0;
+	width: 200px;
+	height: 232px;
+}
+.sub-menu:hover .sub{
+	display: block;
+}
+.sub-menu .sub > li > a{
+	color: grey ;
+	display: block;
+	padding: 15px 20px;
+}
+.sub-menu .sub > li > a:hover{
+	color:#0CF;
+}
+.sub-menu .dv{
+	height: 180px;
+}
